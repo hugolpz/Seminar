@@ -1,0 +1,49 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# WEBSITE:
+    Emilie Charles  -- website conception -- @Emiliecharles1
+    Hugo Lopez -- Revamp & dynamic templating -- @hugo_lz
+    CEDIL2014's team.
+    
+# COORDINATION SCIENTIFIQUE 
+    Geneviève ZARATE (PLIDAM)
+    Odile ISSA (PLIDAM)
+
+# COMITE D'ORGANISATION COLLOQUE
+    Thomas Szende (coordination)
+    Cristina BIRSAN (INALCO)
+    Evelyne Argaud
+    Amel Boughnim
+    Claire Bourguignon
+    Stella Cambrone-Lasnes (Elliad-d)
+    Jin-Ok Kim
+    Heba Lecocq
+    Diana Lemay
+    Min Liao
+    Delombera Negga
+    Louise Ouvrard
+    Anthippi Potolia
+    Odile Racine-Issa
+    Elli Suzuki
+    Rong Zhang-Fernandez
+    Tatiana Sirotchouk
+
+# COMITE D'ORGANISATION SEMINAIRE DOCTORAL
+    Elena AKBORISOVA (PLIDAM, INALCO)
+    Natalia DURUS (PLIDAM, INALCO)
+    Hugo LOPEZ (PLIDAM, INALCO)
+    Catherine TAMUSSIN (PLIDAM, INALCO)
+    Trinh THUY DUONG (PLIDAM, INALCO)
+    Omaira VERGARA (PLIDAM, INALCO)
+    Dalel BOUSSAHEL (DILTEC, Paris 3)
+    Christophe PORTEFIN (DILTEC, Paris 3)
+    Solange BAGAMBOULA (PLIDAM, INALCO)
+    Joseph ABDULNOUR (PLIDAM, INALCO)
+    Xia LIN (PLIDAM, INALCO)
+    Li ZHANG (PLIDAM, INALCO)
+    Iman SRIDI (PLIDAM, INALCO)
+    
+# TECHNOLOGY COLOPHON
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr, HandlebarsJS

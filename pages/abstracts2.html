@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- SEDILL Seminaire des Etudiant-cherche en didactique des langues lointaines -->
+	<head>
+		<title>PLIDAM'14 | Abstracts</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+		<link rel="icon" type="image/png" href="../img/favicon.png" /> 
+        <!-- 0a. JS -->
+        <script src="//code.jquery.com/jquery-2.0.3.min.js"></script><!-- online jquery.js -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.1.2/handlebars.min.js"></script><!-- online handlebars.js-->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.1.0/tabletop.min.js"></script>
+        <script src="../js/main.js"></script><!-- main.js -->
+	</head>
+
+    <body>
+		
+<header></header><!-- HEADER -->
+        
+<chest><!-- CHEST -->
+    <section id="content"><!-- CUSTOM CONTENT HERE -->
+        <article class="fr">
+            <h2>Liste des titres, résumés et auteurs</h2>
+            <p>Ce contenu sera mis en ligne après notification aux auteurs concernés.</p>
+        </article>
+        <article class="en">
+            <h2>List of qualified topics, abstracts, and authors</h2>
+            <p>This content will be online after acceptation notices are sent to the respective authors.</p>
+        </article>
+        <article>
+            <div id="anchor" class="abstracts"></div><!-- 1. Hook -->
+        </article>
+    </section>
+    
+    <section id="dates"></section>
+</chest><!-- CHEST END-->
+
+    <!-- 2. Template -->
+    <script id="tpl" type="text/x-handlebars-template">
+        <div class="entry" id="{{family}}">
+          <div class="title left gras">{{title}}</div>
+          <div class="speaker">By: <span class="last">{{family}}</span>,  <span class="first">{{name}}</span> <span class="mail">—  {{{email}}}</span></div>
+          <div class="abstract left">{{abstract}}</div>
+      </div>
+    </script>
+    <!-- 3. JS -->
+    <script type="text/javascript">
+      //  var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0Arsc5NsNo7xedERucjY3aHdvMkdzdmV2aUE2d2dpN2c&output=html';
+      $(document).ready( function() {
+        Tabletop.init( { key: '0Arsc5NsNo7xedERucjY3aHdvMkdzdmV2aUE2d2dpN2c',
+                         callback: showInfo,
+                         parseNumbers: true } );
+      });
+        
+    function showInfo(data, tabletop) { // function showInfo(rows) { } important as well !
+        var source   = $("#tpl").html();
+        var template = Handlebars.compile(source);
+
+        $.each( tabletop.sheets("seminar").all(), function(i, data2) {
+          var html = template(data2);
+          $("#anchor").append(html);
+        });
+      }
+        </script>  
+        
+<footer></footer><!-- FOOTER END-->
+
+<script>
+    appendHeader();
+    appendDates();
+    appendFooter();
+    currentPage();
+    switchLanguage(); 
+</script>
+	</body>
+</html>

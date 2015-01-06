@@ -1,0 +1,572 @@
+/*###################### GENERAL #######################*/
+			
+@font-face{
+
+	font-family:"quadranta";
+	src:url("../fonts/quadranta.otf") format("opentype"), url("../fonts/quadranta.eot") format("embedded-opentype");
+	
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+body{
+	/* background-image:url('../img/binding_dark.png');
+    background-image: url('http://subtlepatterns.com/patterns/dark_wood.png');
+    background-image: url('http://subtlepatterns.com/patterns/escheresque_ste.png'); 
+    background-image: url('http://subtlepatterns.com/patterns/diagmonds.png');  */
+    background-image: url('http://subtlepatterns.com/patterns/triangles.png'); 
+	margin:0;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	text-align:center;
+	color:#A9A9A9;
+}
+
+a{
+	color:gray;
+	transition:color 0.5s;
+	transition-timing-function:linear;
+	text-decoration:none;			
+}
+
+.defaut{
+	color:gray;
+	transition:color 0.5s;
+	transition-timing-function:linear;			
+}
+
+a:hover{
+	color:#D8D8D8;
+	
+}
+
+p{
+	text-align:justify;
+	line-height:1.5;
+	margin-left:3%;
+}
+
+h2{
+	color:#BD3613;
+	margin-top:3%;
+}
+
+h3{
+	text-align:left;
+	
+}
+
+article{
+
+	margin-bottom:5%;
+	
+}
+
+ul{
+	text-align:justify;
+}
+
+.souligne{
+	text-decoration:underline;
+}
+
+.anglais {
+	font-style:italic;
+}
+
+.nb{
+	font-size:1vmax;
+	text-align:center;
+}
+
+.left{
+	text-align:left;
+}
+
+.gras{
+	font-weight:bold;
+}
+
+.centre{
+	text-align:center;
+	}
+	
+#lien_sub{
+	
+	background-color:#BD3613;
+	padding:5px 15px 5px 15px;
+	color:#A9A9A9;
+	width:10px;
+	border-radius:5px;
+}
+
+#lien_sub:hover{
+	background-color:gray;
+	color:#A9A9A9;
+	transition:color 0s;
+}
+
+.barre{
+	text-decoration:line-through;
+}
+
+/*###################### LANGUES #######################*/
+.en { display: none; }
+.lang { 
+  float: left;
+  margin-right: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+  line-height: 35px;
+  text-align: center;
+  font-size: 25px; /* if you want replace en.png by text*/
+  color: #BD3613;
+  font-family: 'Lobster', cursive;
+  font-weight: 900;
+  text-shadow:0 1px 0 rgba(255,255,255,.12);
+  background:url('http://www.bradysammons.com/codepen/darkui/noise.png') repeat;
+  cursor: pointer;
+  position: relative;
+  border: 2px solid #333;
+  box-shadow: 0 0 2px 0 rgba(161,165,172, 1), 0 10px 10px 0 rgba(0,0,0, .5), 0 10px 15px -3px rgba(0,0,0, .5);
+  transition: all .4s ease;
+  user-select: none;
+}
+
+/*################### MENU #######################*/
+
+nav{
+	width:100%;
+	text-align:center;
+	margin-top:2%;
+	margin-bottom:1%;
+	opacity:0.7;
+	color:grey;
+	
+}
+
+.menu > li {
+	display:inline-block;
+    padding-left:12px;
+	padding-right:10px;
+	padding-bottom:10px;
+	margin-left:2%;
+	font-size:2.7vmin;
+	border-style: solid;
+	border-color: gray;
+	border-width:0 0 1px 0;
+	
+	
+}
+
+li > .courant {
+	display: inline-block;
+	font-size: 3vmin;
+	font-weight: 900;
+    color: white;
+	border:none;
+}
+
+/*####################### HEADER #######################*/
+
+#banner{
+	width:100%;
+	height:40%;
+	box-shadow:4px 4px 20px black;
+	background-image:url(../img/Paris_Night.jpg);
+    background-position:0px -0px; /*-120px*/
+	background-size:cover;
+	background-origin:content-box;
+    font-family:quadranta;
+	overflow:hidden;
+}
+
+
+.acro{
+	color:#BD3613;
+	text-shadow: 2px 2px black;
+	font-size:larger;
+}
+
+header{
+}
+
+
+/*#logo{
+	width:70%;
+	padding-bottom:10%;
+	padding-left:2%;
+}*/
+
+#logo{
+	background:url(../img/logo_shadow.png) no-repeat center center;
+	background-size:90%;
+}
+
+#titre_logo{
+	margin:auto;
+	width:100%;
+	padding-bottom:6%;
+	padding-top:2%;
+}
+
+#cell_titre{
+	color:black;
+	padding-top:3%;
+	text-align:center;
+	line-height:0.9;
+	width:75%;
+}
+
+#titre{
+	font-size:6vmin;
+	text-shadow: 1px 1px 2px white;
+}
+
+
+#sous_titre{
+	font-size:4vmin;
+    font-weight:900;
+	text-shadow: 1px 1px 2px white;	
+}
+	
+/*###################### CONTENU ##################*/
+
+#content{
+	height:75%;
+	width:60%;
+	margin-bottom:2%;
+	display:inline-block;
+	padding:25px;
+	font-size:2.5vmin;
+	
+}
+
+#dates{
+	border-radius:15px;
+	box-shadow: 1px 1px 12px black;
+	border-color:dimgray;
+	display:inline-block;
+	height:75%;
+	width:22%;
+	padding:25px;
+	vertical-align:top;
+	margin-left:4%;
+	margin-right:-4%;
+	margin-top:1%;	
+}
+
+
+/*###################### FOOTER #####################*/
+
+footer{
+	height:25%;
+	background-color:#9b4111;
+	box-shadow:4px 4px 20px black;
+	padding:20px;
+	margin-top:3%;
+}
+
+#credits{
+	font-size:smaller;
+	margin-top:5%;
+}
+
+#flag{
+	vertical-align:middle;
+}
+.partnairs { 
+    margin:auto; 
+    width:48em;
+    font-size: 0.5em;
+}
+.partnairs a {
+	display: inline-block; /* or block; */
+    width:8em;
+	height:8em;
+	color: #BD3613;
+	text-decoration:none;
+	background-color:white;
+	border:2px solid #333;
+	margin: 0em .8em 0em .8em;
+    padding:0.5em;
+	transition: 0.6s;
+    vertical-align: middle;
+}
+.partnairs img {
+	width:8em;
+    max-height:8em;
+    position: middle;
+}
+.partnairs a:hover { 
+	border:2px solid #BD3613;
+    text-decoration : underline;
+	}
+
+
+/*######################## INSCRIPTION #####################*/
+
+.frais {
+	border-top:none;
+	border-bottom:none;
+	border-radius:30px;
+	margin-top:1%;
+	display:inline-block;
+	text-align:left;
+	padding:30px;
+	margin-right:1%;
+
+}
+
+.liste{
+	font-size:larger;
+		
+}
+
+.legende {
+	font-variant:small-caps;
+	color:#FF6347;
+}
+
+/*############################ FORMULAIRE #########################*/
+.presence_table{
+	border:solid 1px;
+	border-collapse:collapse;
+	text-align:center;
+	padding:5px;
+	margin:auto;
+}
+
+.presence_table_left{
+	border:solid 1px;
+	border-collapse:collapse;
+	text-align:left;
+	padding:5px;
+	margin:auto;
+}
+
+.field_form {
+	border-top:none;
+	border-bottom:none;
+	border-radius:30px;
+	margin-top:1%;
+	display:inline-block;
+	text-align:left;
+	padding:30px;
+	margin-right:1%;
+	width:100%;
+}
+
+
+#comm_oui_tb{
+	display:none;
+}
+
+
+.legend_radio:hover{
+	cursor:pointer;
+}	
+
+.precision{
+	font-size:smaller;
+	
+}
+
+.table_form{
+	
+	margin-top:2%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	padding:10px;
+	display:table-cell;
+}
+
+
+/* Mise en forme des formulaires */
+/* Autres formulaires */
+
+.long{
+	width:180%;
+}
+
+input[type=text] {
+    padding: 3px 3px;
+    color: black;
+    /* Coins arrondis */
+    border-radius: 5px;
+
+    /* Fond blanc très légèrement transparent */
+    background: #F5F5F5;
+
+    /* Ajouter une transition progressive, pour toutes les propriétés (all) */
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    
+}
+
+input[type=text]:focus {
+    color: black;
+
+    /* La même ombre à l'intérieur (inset)
+    + une ombre bleu électrique à l'extérieur */
+    box-shadow: inset rgba(0,0,0,0.35) 2px 2px 6px, #696969 0 0 6px;
+
+    /* Désactiver la bordure par défaut (bleu clair sur chrome) */
+    outline: 0;
+}
+
+input[type=password] {
+    padding: 3px 3px;
+    color: black;
+    
+    /* Coins arrondis */
+    border-radius: 5px;
+
+    /* Fond blanc très légèrement transparent */
+    background: #F5F5F5;
+
+
+    /* Ajouter une transition progressive, pour toutes les propriétés (all) */
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+
+input[type=password]:focus {
+    color: black;
+
+    /* La même ombre à l'intérieur (inset)
+    + une ombre bleu électrique à l'extérieur */
+    box-shadow: inset rgba(0,0,0,0.35) 2px 2px 6px, #696969 0 0 6px;
+
+    /* Désactiver la bordure par défaut (bleu clair sur chrome) */
+    outline: 0;
+}
+
+input[type=submit], input[type=button]{
+	padding: 8px 10px;
+    color: black;
+
+    /* Bordure gris sombre */
+    border: 1px solid #708090;
+
+    /* Coins arrondis */
+    border-radius: 3px;
+
+    /* Fond blanc très légèrement transparent */
+    background: #B8860B;
+
+    /* Légère ombre à l'intérieur du champ, pour donner de la profondeur */
+    box-shadow: inset  #D3D3D3 2px 2px 12px;
+
+    /* Ajouter une transition progressive, pour toutes les propriétés (all) */
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+input[type=submit]:hover, input[type=button]:hover{
+	padding: 8px 10px;
+    color: black;
+	cursor:pointer;
+    /* Bordure gris sombre */
+    border: 1px solid #708090;
+
+    /* Coins arrondis */
+    border-radius: 3px;
+
+    /* Fond blanc très légèrement transparent */
+    background: #DAA520;
+
+    /* Légère ombre à l'intérieur du champ, pour donner de la profondeur */
+    box-shadow: inset  #D3D3D3 2px 2px 12px;
+
+    /* Ajouter une transition progressive, pour toutes les propriétés (all) */
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+select{
+	/* Bordure gris sombre */
+    border: 1px solid #708090;
+
+    /* Coins arrondis */
+    border-radius: 5px;
+    
+    /* Légère ombre à l'intérieur du champ, pour donner de la profondeur */
+    box-shadow: inset  #D3D3D3 2px 2px 6px;
+    
+    font-family:helvetica;
+}
+
+
+/*############################ FORK ME #########################*/
+.ribbon {
+  background-color: #a00;
+  overflow: hidden;
+  /* top left corner */
+  position: absolute;
+  left: -3em;
+  top: 2.5em;
+  /* 45 deg ccw rotation */
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  /* shadow */
+  -moz-box-shadow: 0 0 1em #888;
+  -webkit-box-shadow: 0 0 1em #888;
+}
+.ribbon a {
+  border: 1px solid #faa;
+  color: #fff;
+  display: block;
+  font: bold 81.25% 'Helvetiva Neue', Helvetica, Arial, sans-serif;
+  margin: 0.05em 0 0.075em 0;
+  padding: 0.5em 3.5em;
+  text-align: center;
+  text-decoration: none;
+  /* shadow */
+  text-shadow: 0 0 0.5em #444;
+}
+/*############################ ABSTRACTS #########################*/ 
+.abstracts { width: 90%; position: center; }
+.entry { 
+    border: .5em solid #ddd;
+    margin: .6em;
+    display: block; /* or inline-block */
+    overflow: hidden;
+    background-color: #FFF;
+    padding: .5em;
+}
+.entry div { 
+    border: .1em solid #ddd; 
+    padding: .5em;
+}
+.entry:hover { 
+    border: .5em solid #333;
+    padding: #333;
+    transition: 1s;
+}
+
+.title { 
+    margin-bottom: 0em; 
+    border-top: .3em solid red; 
+    border-bottom: 0em; 
+    font-size: 1.3em;
+    font-weight: 900;
+    color: #BD3613; /* #FFF; */
+    background-image: url('http://subtlepatterns.com/patterns/triangles.png'); 
+}
+.speaker { 
+    margin-bottom: 0em;  
+    margin-top: 0em; 
+    border-bottom: 0em;  
+    line-height: 1.5em; 
+    color: #333;
+}
+.abstract {
+    margin-top: 0em;
+    color: #000;
+}

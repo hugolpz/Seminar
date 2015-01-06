@@ -1,0 +1,31 @@
+{ "abstracts":
+    [
+        {
+            "family": "Lopez",
+            "name": "Hugo",
+            "job": "PhD candidate",
+            "university": "INALCO (France)",
+            "abstract": "WP:Map workshop's Dino, GIS, Gdal & D3js lightener",
+            "photo": "WikiAtlas_Lopez_Hugo_Yug.png",
+            "twitter": "Hugo_lz"
+        },        
+        {
+            "family": "Ganesh",
+            "name": "Arun",
+            "job": "PhD candidate",
+            "university": "INALCO (France)",
+            "abstract": "WP:Map workshop's Dino, GIS, Gdal & D3js lightener",
+            "photo": "WikiAtlas_Lopez_Hugo_Yug.png",
+            "twitter": "planemad"
+        },
+        {
+            "family": "Lopez",
+            "name": "Edouard",
+            "job": "PhD candidate",
+            "university": "INALCO (France)",
+            "abstract": "WP:Map workshop's Dino, GIS, Gdal & D3js lightener",
+            "photo": "WikiAtlas_Lopez_Hugo_Yug.png",
+            "twitter": "edouard_lopez"
+        }
+    ]
+}

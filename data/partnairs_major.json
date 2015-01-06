@@ -1,0 +1,8 @@
+{ "items": 
+ [
+     { "name":"PLIDAM, INALCO", "country":"France", "website":"www.plidam.org", "img":"PLIDAM" },
+     { "name":"School of Oriental and African Studies, University of London", "country":"United Kingdoms", "website":"www.soas.ac.uk", "img":"SOAS" },
+     { "name":"University of South Australia", "country":"Australia", "website":"www.unisa.edu.au", "img":"South_Australia" },
+     { "name":"INALCO", "country":"France", "website":"www.inalco.fr", "img":"INALCO" }
+ ]
+}

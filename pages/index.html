@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>PLIDAM'14 | Home</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+		<link rel="icon" type="image/png" href="../img/favicon.png" /> 
+        <!-- 0a. JS -->
+        <script src="//code.jquery.com/jquery-2.0.3.min.js"></script><!-- online jquery.js -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.1.2/handlebars.min.js"></script><!-- online handlebars.js-->
+        <script src="../js/main.js"></script><!-- main.js   -->
+	</head>
+
+    <body>
+		
+<header></header><!-- HEADER -->
+
+        
+<chest><!-- CHEST -->
+    <section id="content"><!-- CUSTOM CONTENT HERE -->
+        <article class="fr">
+            <h2>Séminaire Doctoral International sur la didactique des langues et des cultures</h2>
+            <p>L’Equipe de recherche PLIDAM (Pluralité des langues et des identités : didactique, acquisition, médiations, ou EA 4514) de l’INALCO (Institut national des langues et civilisations orientales, Paris, France) organise un <span calss="gras">Séminaire Doctoral International</span> <i>« Appropriation et transmission des langues et des cultures du monde - Mise en réseau des recherches émergentes »</i>, du 11 au 14 juin 2014, au 65 rue des Grands Moulins, 75013, Paris. </p>
+            <p>Le PLIDAM (INALCO, Paris, France) organisera cette événement en partenariat avec la SOAS (Royaume-Uni), l’Université de Fribourg (Suisse), l’Université du Luxembourg (Luxembourg), Universität Augsbourg (Allemagne), Università degli studi di Macerata (Italie), Beijing Foreign Languages Studies University (Chine), Universitatea din Craiova (Roumanie), Univerza v Ljubljani (Slovénie), Université Sorbonne Nouvelle - Paris 3 (France) et University of South Australia (Australie). </p> 
+        </article> 
+        <article class="en">
+            <h2>International Doctoral Seminar on Languages and Cultures’Education</h2>
+            <p>The Research Team PLIDAM (Pluralité des Langues et des Identités : Didactique, Acquisition, Médiations, aka EA 4514) of the National Institute of Oriental Languages and Civilisations (Institut national des langues et civilisations orientales – INALCO, Paris, France) is organizing its International Doctoral Seminar <i>« Appropriation and transmission of world languages and cultures /Appropriation et transmission des langues et des cultures du monde »</i>, in Paris (at 65 rue des Grands Moulins 75013 Paris) from the 11th to the 14th of June 2014.</p>
+            <p>The seminar is organised in partnership with the  School of Oriental and African Studies  (SOAS, Royaume-Uni), University of  Fribourg (Switzerland), University of Luxembourg (Luxembourg), Universität Augsbourg (Germany), Università degli studi di Macerata (Italy), Beijing Foreign Languages Studies University (China), Universitatea din Craiova (Romania), Univerza v Ljubljani (Slovenia), Université Sorbonne Nouvelle - Paris 3 (France) and the University of South Australia (Australia).</p> 
+        </article>
+        <article class="partnairs" id="partnairsAnchor"></article><!-- 2. Anchor -->
+        <article class="fr">  
+            <p>Le Séminaire doctoral donne la parole aux doctorants en didactique <b>de ces équipes</b> travaillant dans des contextes académiques, linguistiques et culturels variés, sans condition de nationalité.
+            Conçu comme un outil de formation à la recherche, fondé sur l’échange scientifique entre jeunes chercheurs et experts seniors, le Séminaire sera l'occasion pour les jeunes-chercheurs que vous désignerez de présenter leurs projets de recherche dans un environnement international. Les langues de travail seront le français et l’anglais.</p>
+            <p>Le Séminaire et le Colloque commenceront le mercredi 11 juin 2014 en milieu de journée et se termineront le samedi 14 juin 2014 en milieu de journée.</p>
+            <p>Nous serons heureux de vous accueillir à Paris. </p>
+        </article>
+        <article class="en">
+            <p>The seminar is organised for doctoral students in language education <b>from these research centers</b> working within a variety of academic, linguistic and cultural contexts, irrespective of their nationality.
+            Designed as a training tool for research, based on scientific exchange between young researchers and senior experts, the seminar will provide an opportunity for young researchers that you designate to present their research in an international environment.  The languages of the seminar are French and English. </p>
+            <p>The Seminar and Symposium will begin on Wednesday, June 11, 2014 at midday and will end on Saturday, June 14, 2014 at midday.</p>
+            <p>We thank you for your support and we look forward to meeting you.</p>
+            <p>Best regards,</p>
+        </article>
+    </section>
+    
+    <section id="dates"></section>
+</chest><!-- CHEST END-->
+
+<footer></footer><!-- FOOTER END-->
+
+<script>
+    appendHeader();
+    appendDates();
+    appendFooter();
+    currentPage();
+    switchLanguage();
+    // <!-- 4. Handlebars.js slingshot -->
+    slingshot('../data/partnairs.json', '#tpl', '#partnairsAnchor');
+</script>
+	</body>
+</html>
+
