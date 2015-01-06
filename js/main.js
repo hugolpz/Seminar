@@ -29,7 +29,7 @@ $('header')
 +'           <li><a href="index.html">Home</a></li><li><a href="call.html">Call & submission</a></li><li><a href="expert.html">Committees</a></li><li><a href="program.html">Program</a></li><li><a href="abstracts.html">Abstracts</a></li><li><a href="registration.html">Registration</a></li><!-- <li><a href="infos.html">Practical</a></li><li><a href="publication.html">Publication</a></li> -->'
 +'        </ul>'
 +'    </nav>'
-+'<a href="https://github.com/hugolpz/Seminar"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>'
++'<a href="https://github.com/hugolpz/Seminar2014"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>'
 )}
 
 var appendDates = function() {
@@ -85,7 +85,7 @@ var slingshot = function (url, tplId, anchor) {
     });
 }
 var tpl = '{{#items}}<a href="http://{{website}}">'
-+'          <img class="partn_ers" title="{{name}} alt="{{name}}" ({{country}})" src="../img/partners/{{img}}_logo.jpg" href="http://{{website}}" />'
++'          <img class="" title="{{name}} alt="{{name}} ({{country}})" src="../img/partners/{{img}}_logo.jpg" href="http://{{website}}" />'
 +'        </a>{{/items}}';
 
 slingshot('../data/partners_major.json', tpl, '#anchorPartnersMajor');
