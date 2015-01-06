@@ -1,10 +1,8 @@
 /*###################### GENERAL #######################*/
 			
 @font-face{
-
 	font-family:"quadranta";
 	src:url("../fonts/quadranta.otf") format("opentype"), url("../fonts/quadranta.eot") format("embedded-opentype");
-	
 }
 
 @import url(http://fonts.googleapis.com/css?family=Lobster);
@@ -274,12 +272,12 @@ footer{
 #flag{
 	vertical-align:middle;
 }
-.partnairs { 
+.partners { 
     margin:auto; 
     width:48em;
     font-size: 0.5em;
 }
-.partnairs a {
+.partners a {
 	display: inline-block; /* or block; */
     width:8em;
 	height:8em;
@@ -292,12 +290,12 @@ footer{
 	transition: 0.6s;
     vertical-align: middle;
 }
-.partnairs img {
+.partners img {
 	width:8em;
     max-height:8em;
     position: middle;
 }
-.partnairs a:hover { 
+.partners a:hover { 
 	border:2px solid #BD3613;
     text-decoration : underline;
 	}

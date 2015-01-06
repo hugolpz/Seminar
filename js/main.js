@@ -29,7 +29,7 @@ $('header')
 +'           <li><a href="index.html">Home</a></li><li><a href="call.html">Call & submission</a></li><li><a href="expert.html">Committees</a></li><li><a href="program.html">Program</a></li><li><a href="abstracts.html">Abstracts</a></li><li><a href="registration.html">Registration</a></li><!-- <li><a href="infos.html">Practical</a></li><li><a href="publication.html">Publication</a></li> -->'
 +'        </ul>'
 +'    </nav>'
-+'<a href="https://github.com/hugolpz/2014Seminar"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>'
++'<a href="https://github.com/hugolpz/Seminar"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>'
 )}
 
 var appendDates = function() {
@@ -53,7 +53,7 @@ var appendFooter = function() {
 $('footer')
   .append(
 '    Sponsored by :<br /><br />'
-+'    <div class="partnairs" id="anchorPartnairsMajor"></div>'
++'    <div class="partners" id="anchorPartnersMajor"></div>'
 +'    <br />'
 +'    <span id="credits"> '
 +'    <a class="lang2 en"><img src="../img/fr.png" alt="Version française" title="Version française" id="flag"/> Version française</a>'
@@ -85,10 +85,10 @@ var slingshot = function (url, tplId, anchor) {
     });
 }
 var tpl = '{{#items}}<a href="http://{{website}}">'
-+'          <img class="partenaire" title="{{name}} alt="{{name}}" ({{country}})" src="../img/partnairs/{{img}}_logo.jpg" href="http://{{website}}" />'
++'          <img class="partn_ers" title="{{name}} alt="{{name}}" ({{country}})" src="../img/partners/{{img}}_logo.jpg" href="http://{{website}}" />'
 +'        </a>{{/items}}';
 
-slingshot('../data/partnairs_major.json', tpl, '#anchorPartnairsMajor');
+slingshot('../data/partners_major.json', tpl, '#anchorPartnersMajor');
 
 var currentPage = function () { $('.menu a').each(function() {
     if ($(this).attr('href') == location.href.split("/").slice(-1)){ $(this).addClass('courant') }

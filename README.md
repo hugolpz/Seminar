@@ -15,7 +15,7 @@ hidden for now are:
  
 ## Credits
  1. Emilie Charles -- principal author: HTML & CSS, most of the authorship & thanks go to her
- 2. Hugo Lopez -- 3 days revamp: centralisation & JS injection of header/sider/footer, JS additions for biligualism & JS templating --gallery of partnairs, gallery of abstracts--, and github upload.
+ 2. Hugo Lopez -- 3 days revamp: centralisation & JS injection of header/sider/footer, JS additions for biligualism & JS templating --gallery of partners, gallery of abstracts--, and github upload.
 
 ## License
 CC-by-sa-nc : for academic purpose only (conference's entrance fees are fine). 
