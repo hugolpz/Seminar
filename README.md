@@ -1,6 +1,7 @@
 
 ## Seminar2014
-This code is a basic website for bilingual academic events with 
+[This website](https://furner-promic.codio.io/pages/index.html) is a basic html/js website for bilingual academic events with
+
  1. an introduction page
  2. a call for papers (abstracts) page
  3. a list of experts & organisators page
