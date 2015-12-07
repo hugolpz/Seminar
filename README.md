@@ -13,7 +13,11 @@ hidden for now are:
 
  7. the practical infos page
  8. the publication guidelines page (if needed)
- 
+
+## Preview
+[![enter image description here][1]][1]
+  [1]: http://i.stack.imgur.com/bmnae.jpg
+
 ## Credits
  1. Emilie Charles -- principal author: HTML & CSS, most of the authorship & thanks go to her
  2. Hugo Lopez -- 3 days revamp: centralisation & JS injection of header/sider/footer, JS additions for biligualism & JS templating --gallery of partners, gallery of abstracts--, and github upload.
