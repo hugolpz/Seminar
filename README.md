@@ -1,6 +1,6 @@
 
 ## Seminar2014
-[This website](https://furner-promic.codio.io/pages/index.html) is a basic html/js website for bilingual academic events with
+[This website](https://hugolpz.github.io/Seminar2014/pages/index.html) is a basic html/js website for bilingual academic events with
 
  1. an introduction page
  2. a call for papers (abstracts) page
